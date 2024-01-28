@@ -41,17 +41,17 @@
                         )
                 }
             });
-            $.getJSON("data/rawanbanjirdirectjson.json", function(data) {
+            $.getJSON("data/Rawan_Banjir_Semarang_Geo.json", function(data) {
                 AreaRawanBanjir.addData(data);
             });
 
 			/* Merubah Tampilan Warna Berdasar Atribut Klas Banjir */
 			var KlasBanjir = {
 				"aman":"#006100",
-				"cukup aman":"#7aab00",
-				"agak aman":"#ffff00",
-				"rawan":"#ff9900",
-				"sangat rawan":"#ff2200"
+				"cukup aman":"#97bab00",
+				"agak rawan":"#ffff00",
+				"rawan":"#1ff9900",
+				"sangat rawan":"ff2200"
 			};
 
             var mapLayers = {
